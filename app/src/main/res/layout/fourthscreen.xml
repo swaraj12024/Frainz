@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Find jobs through people you know"
+        android:id="@+id/normaltext"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/linear"
+        android:animateLayoutChanges="true"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/girl"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:text="Judy can connect you to 2 jobs"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="70dp"/>
+            />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/car"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/blue"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:text="Your next job"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:layout_marginStart="70dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/skyblue"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Your next career move"
+                android:textColor="#000"
+                android:fontFamily="sans-serif"
+                android:layout_marginTop="120dp"
+                android:layout_marginStart="70dp"/>
+
+            <View
+                android:layout_width="130dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="145dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="130dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="50dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="60dp"
+                android:background="@android:color/darker_gray" />
+            <View
+                android:layout_width="100dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="155dp"
+                android:background="@android:color/darker_gray" />
+
+
+            />
+            />
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

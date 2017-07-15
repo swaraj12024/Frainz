@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Connect and keep in touch with your network"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="300dp"
+        android:id="@+id/cardview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Today"
+             android:layout_marginTop="10dp"
+             android:layout_gravity="center_horizontal"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/girl"/>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+
+            android:background="@drawable/circle"
+            android:text="Congrats on the role!"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:layout_marginStart="60dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/goodjob"
+            android:visibility="gone"
+            android:id="@+id/image"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="190dp"
+            android:textSize="15sp"
+            android:text="Thanks!"
+            android:visibility="gone"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/thanks"
+            android:background="@drawable/thanks"
+            android:layout_marginStart="230dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_marginTop="240dp"
+            android:textSize="15sp"
+            android:id="@+id/soontext"
+            android:text="Let's catch up soon!"
+            android:textColor="#000"
+            android:gravity="center"
+            android:background="@drawable/thanks"
+            android:layout_marginStart="180dp"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif"
+        android:text="Linked"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="in"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:fontFamily="serif"
+        android:text="Connect to Opportunity"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

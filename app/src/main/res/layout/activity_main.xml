@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swaraj.frainz.MainActivity"
+    >
+
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:text="JOIN NOW"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:id="@+id/jointext"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/join"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="340dp"
+        android:id="@+id/signtext"
+        android:layout_height="50dp"
+        android:layout_marginTop="510dp"
+        android:text="SIGN IN"
+        android:background="#fff"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:id="@+id/viewer"
+        />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:id="@+id/indicator"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true">
+
+    </me.relex.circleindicator.CircleIndicator>
+
+
+
+</RelativeLayout>
